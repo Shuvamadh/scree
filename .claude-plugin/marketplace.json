@@ -1,0 +1,13 @@
+{
+  "name": "scree",
+  "owner": {
+    "name": "Shuvam Adhikari"
+  },
+  "plugins": [
+    {
+      "name": "scree",
+      "source": "./",
+      "description": "Scree, a rock spirit companion for Claude Code"
+    }
+  ]
+}

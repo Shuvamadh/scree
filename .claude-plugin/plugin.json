@@ -1,0 +1,24 @@
+{
+  "name": "scree",
+  "version": "1.0.0",
+  "description": "Scree, a rock spirit companion for Claude Code: animated pane, pet, notes, session updates and a 5-hour usage ring",
+  "author": {
+    "name": "Shuvam Adhikari"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "name": {
+      "type": "string",
+      "title": "Your name",
+      "description": "What Scree calls you (optional)",
+      "default": ""
+    },
+    "folder": {
+      "type": "string",
+      "title": "Notes folder",
+      "description": "Where Scree keeps notes and the desktop pet's files. Empty: <home>/Scree",
+      "default": ""
+    }
+  }
+}
